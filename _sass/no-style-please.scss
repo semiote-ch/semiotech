@@ -28,7 +28,7 @@ body {
   font-family: arial;
   font-size: 16px;
   line-height: 1.4;
-  margin: 0;
+  margin: 50;
   min-height: 100%;
   overflow-wrap: break-word;
 }
@@ -46,8 +46,8 @@ li { margin: 0.4rem 0; }
 *:target { background: yellow; }
 
 .w {
-  max-width: 640px;
-  max-height: 640px;
+  max-width: 320px;
+  max-height: 320px;
   margin: 0 auto;
   padding: 4rem 2rem;
 }
