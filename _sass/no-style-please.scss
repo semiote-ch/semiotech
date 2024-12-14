@@ -25,7 +25,7 @@ html { height: 100%; }
 
 body {
   color: black;
-  font-family: 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
+  font-family: 'Helvetica Neue';
   font-size: 16px;
   line-height: 1.4;
   margin: 25%;
@@ -39,15 +39,15 @@ h2, h3, h4, h5, h6 { margin-top: 3rem; }
 
 hr { margin: 2rem 0; }
 
-p {margin: 1rem 0; }
+p {font-family: 'Helvetica Neue';margin: 1rem 0; }
 
 li { margin: 0.4rem 0; }
 
 *:target { background: yellow; }
 
 .w {
-  max-width: 70%;
-  max-height: 70%;
+  max-width: 500px;
+  max-height: 500px;
   margin: 0 auto;
   padding: 4rem 2rem;
 }
