@@ -6,3 +6,7 @@ Every sign, linguistic or nonlinguistic, spoken or written (in the usual sense o
 
 
 — Jacques Derrida, _Signature Event Context (1972)_, pg. 12
+
+
+🌐 semiote.ch
+📍 Brooklyn, NY
