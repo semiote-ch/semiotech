@@ -12,4 +12,4 @@ That's not what I meant to say at all. I mean, I'm sick of meaning. I just wanna
 
 🌐 semiote.ch
 📍 Brooklyn, NY
-📧 [email me](mailto:jayeychen@gmail.com?subject=re%3A%20semiotech&body=i%20want%20to%20give%20you%20one%20million%20dollars)
+📧 [email me](mailto:jayeychen@gmail.com?subject=semiotech&body=i%20want%20to%20give%20you%20one%20million%20dollars)
