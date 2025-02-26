@@ -14,10 +14,10 @@ export let currentFilter = "all";
 
 export async function loadData() {
   try {
-    const articlesRes = await fetch('data/articles.json');
+    const articlesRes = await fetch(`${config.basePath}/data/articles.json`);
     articlesData = await articlesRes.json();
 
-    const playlistsRes = await fetch('data/playlists.json');
+    const playlistsRes = await fetch(`${config.basePath}/data/playlists.json`);
     playlistsData = await playlistsRes.json();
 
     loadNextBatch();
