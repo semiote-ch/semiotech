@@ -9,4 +9,4 @@ Every sign, linguistic or nonlinguistic, spoken or written (in the usual sense o
 
 🌐 semiote.ch
 📍 Brooklyn, NY
-📧 [jayeychen@gmail.com](mailto:jayeychen@gmail.com?subject=re%3A%20 semiotech&body=i want to give you one million dollars)
+📧 [email me](mailto:jayeychen@gmail.com?subject=re%3A%20semiotech&body=i%20want%20to%20give%20you%20one%20million%20dollars)
