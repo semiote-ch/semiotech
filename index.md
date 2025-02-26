@@ -6,10 +6,10 @@ Every sign, linguistic or nonlinguistic, spoken or written (in the usual sense o
 
 — Jacques Derrida, _Signature Event Context (1972)_, pg. 12
 
-That's not what I meant to say at all. I mean, I'm sick of meaning. I just wanna hold you. 
+[//]: # (That's not what I meant to say at all. I mean, I'm sick of meaning. I just wanna hold you. )
 
-— Car Seat Headrest, _Bodys_ (2011), 1-2
+[//]: # ()
+[//]: # (— Car Seat Headrest, _Bodys_ &#40;2011&#41;, 1-2)
 
 🌐 semiote.ch
 📍 Brooklyn, NY
-📧 [email me](mailto:jayeychen@gmail.com?subject=semiotech&body=i%20want%20to%20give%20you%20one%20million%20dollars)
