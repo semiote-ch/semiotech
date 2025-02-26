@@ -6,6 +6,9 @@ Every sign, linguistic or nonlinguistic, spoken or written (in the usual sense o
 
 — Jacques Derrida, _Signature Event Context (1972)_, pg. 12
 
+That's not what I meant to say at all. I mean, I'm sick of meaning. I just wanna hold you. 
+
+— Car Seat Headrest, _Bodys_ (2011), 1-2
 
 🌐 semiote.ch
 📍 Brooklyn, NY
