@@ -1,0 +1,206 @@
+/* 1) GLOBAL RESET */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.category-tag {
+  display: inline-block;
+  font-size: 0.8rem;
+  padding: 2px 8px;
+  border-radius: 999px;
+  color: #333;
+}
+.group-header {
+  font-size: 1rem;
+  font-weight: bold;
+  margin: 10px 0 5px 0;
+  cursor: pointer;
+}
+
+/* Style for category groups (nested lists) */
+.category-group {
+  list-style: none;
+  margin-left: 10px;
+  padding-left: 10px;
+  border-left: 1px dashed #888;
+}
+
+/* Initially, groups are expanded; you can use a class to collapse them */
+.category-group.collapsed {
+  display: none;
+}
+/* 2) BODY: Verdana for body text, but headings remain in Arial. */
+body {
+  width: 100%;
+  font-family: Bahnschrift, 'DIN Alternate', 'Franklin Gothic Medium', 'Nimbus Sans Narrow', sans-serif-condensed, sans-serif;
+  font-weight: normal;
+  text-transform: lowercase;
+  background: linear-gradient(135deg, #d2ffff, #f3dfff);
+  color: #333;
+  line-height: 1.6;
+}
+
+/* Force headings (h1, h2, etc.) to use Arial */
+h1, h2, h3, h4 {
+  margin-top: 1rem;
+  width: 100%;
+  font-family: Arial, sans-serif;
+  font-weight: bold;
+  font-style: italic;
+}
+
+h1 a, h2 a, h3 a, h4 a {
+  font-family: Arial, sans-serif;
+  font-weight: bold;
+  font-style: italic;
+  color: #000;
+}
+
+.body a {
+  width: 100%;
+  color: #6709a3;
+}
+.body p {
+  width: 100%;
+}
+
+/* 3) SIDEBAR */
+.sidebar {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 200px;
+  height: 100vh;
+  background: linear-gradient(135deg, #f3dfff, #d2ffff);
+  padding: 20px;
+  border-right: 2px solid #888;
+  overflow-y: auto;
+}
+.sidebar h2 {
+  margin-bottom: 1rem;
+}
+.sidebar ul {
+  list-style-type: none;
+}
+.sidebar li {
+  margin: 0.5rem 0;
+}
+.sidebar a {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+  font-style: italic;
+}
+
+/* 4) MAIN CONTENT: offset by 220px, center content, up to 100%. */
+.content {
+  margin-left: 220px;
+  padding: 20px;
+  /* We'll center the title & boxes by setting a fixed width container. */
+}
+
+/* 5) THE TITLE: "bandcamp 4ever" with 600px width, transparent fill & black stroke */
+.candy-title {
+  width: 100%;
+  max-width: 100vw;
+  margin: 0 auto 20px auto; /* center horizontally */
+  font-size: 4rem;
+  text-align: center;
+  color: transparent;
+  -webkit-text-stroke: 2px black;
+}
+
+/* 2) MOBILE VIEW *
+/* Candy stars */
+.star1 { color: #ff66cc; }
+.star2 { color: #ff99cc; }
+.star3 { color: #ffaaff; }
+
+/* 6) ARTICLES-GRID: also 600px wide, centered, infinite scroll appends here. */
+.articles-grid {
+  width: 80%;
+  margin: 0 auto; /* center horizontally */
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+/* 7) ARTICLE CARD: from 1st draft, no forced height. */
+.article-card {
+  background: rgba(255,255,255,0.3);
+  width: 100%;
+  align-items: baseline;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 5%;
+}
+
+/* Title & author in each card */
+.article-card h2 {
+  margin-bottom: 5px;
+}
+.article-card p.author {
+  margin-bottom: 10px;
+}
+.article-row1 {
+  width: 100%;
+
+  margin-bottom: 10px;
+}
+.row1-left, .row1-right {
+  width: 100%; /* Ensures stacking works properly */
+  white-space: nowrap;
+  overflow-x: auto;
+}
+
+
+/* Row1 left: playlist container */
+/* Row1 left: playlist container */
+.playlist-container {
+  width: 80%;
+}
+.playlist-container iframe {
+  width: 100%;
+  height: 100%;
+  border-radius: 12px;
+  border: 0;
+}
+.category-tag {
+  display: inline-block;
+  font-size: 0.8rem;
+  padding: 2px 8px;
+  border-radius: 999px;
+  margin-right: 10px;
+  color: #333;
+}
+/* Row1 right: ft. artists + read link */
+.row1-left,
+.row1-right {
+  width: 100%;
+  padding: 3%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+/* Row2: left is buy albums, right is related articles */
+/* Link style */
+a {
+  text-decoration: none;
+  color: #4a03aa;
+}
+
+/* Visitor counter styling */
+#visitor-counter {
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  font-size: 0.8rem;
+  background: #ffffffcc;
+  padding: 5px 10px;
+  border-radius: 5px;
+  border: 1px solid #bbb;
+}
+
+

@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Bandcamp 4ever</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <!-- Title with candy-colored stars, no forced body font for heading -->
+
+
+  <div id="app">
+
+    <!-- Sidebar -->
+<aside class="sidebar">
+  <h2>Categories</h2>
+  <ul class="sidebar-list">
+    <li><a href="#" class="category-link" id="all-link" data-category="all-link">All</a></li>
+    <li><a href="#" id="random-link" >Random</a></li>
+
+    <!-- Bandcamp Daily Group -->
+    <li class="group-header">Bandcamp Daily</li>
+    <ul class="category-group">
+      <li><a href="#" class="category-link" data-category="best-of-2024">Best of 2024</a></li>
+      <li><a href="#" class="category-link" data-category="best-of-2023">Best of 2023</a></li>
+      <li><a href="#" class="category-link" data-category="best-of-2022">Best of 2022</a></li>
+      <li><a href="#" class="category-link" data-category="best-of-2021">Best of 2021</a></li>
+      <li><a href="#" class="category-link" data-category="best-of-2020">Best of 2020</a></li>
+      <li><a href="#" class="category-link" data-category="best-of-2019">Best of 2019</a></li>
+      <li><a href="#" class="category-link" data-category="best-of-2018">Best of 2018</a></li>
+      <li><a href="#" class="category-link" data-category="best-of-2017">Best of 2017</a></li>
+      <li><a href="#" class="category-link" data-category="best-of-2016">Best of 2016</a></li>
+      <li><a href="#" class="category-link" data-category="best-ambient">Best Ambient</a></li>
+      <li><a href="#" class="category-link" data-category="best-beat-tapes">Best Beat Tapes</a></li>
+      <li><a href="#" class="category-link" data-category="best-dance-12s">Best Dance 12”s</a></li>
+      <li><a href="#" class="category-link" data-category="best-electronic">Best Electronic</a></li>
+      <li><a href="#" class="category-link" data-category="best-experimental">Best Experimental</a></li>
+      <li><a href="#" class="category-link" data-category="best-contemporary-classical">Best Contemporary Classical</a></li>
+      <li><a href="#" class="category-link" data-category="best-hip-hop">Best Hip-Hop</a></li>
+      <li><a href="#" class="category-link" data-category="best-jazz">Best Jazz</a></li>
+      <li><a href="#" class="category-link" data-category="best-metal">Best Metal</a></li>
+      <li><a href="#" class="category-link" data-category="best-punk">Best Punk</a></li>
+      <li><a href="#" class="category-link" data-category="best-reissues">Best Reissues</a></li>
+      <li><a href="#" class="category-link" data-category="best-soul">Best Soul</a></li>
+      <li><a href="#" class="category-link" data-category="best-folk">Best Folk</a></li>
+      <li><a href="#" class="category-link" data-category="best-field-recordings">Best Field Recordings</a></li>
+      <li><a href="#" class="category-link" data-category="best-club-music">Best Club Music</a></li>
+      <li><a href="#" class="category-link" data-category="best-country">Best Country</a></li>
+    </ul>
+
+    <!-- Franchises Group -->
+    <li class="group-header">Franchises</li>
+    <ul class="category-group">
+      <li><a href="#" class="category-link" data-category="lists">Lists</a></li>
+      <li><a href="#" class="category-link" data-category="features">Features</a></li>
+      <li><a href="#" class="category-link" data-category="album-of-the-day">Album of the Day</a></li>
+      <li><a href="#" class="category-link" data-category="acid-test">Acid Test</a></li>
+      <li><a href="#" class="category-link" data-category="bandcamp-navigator">Bandcamp Navigator</a></li>
+      <li><a href="#" class="category-link" data-category="big-ups">Big Ups</a></li>
+      <li><a href="#" class="category-link" data-category="certified">Certified</a></li>
+      <li><a href="#" class="category-link" data-category="gallery">Gallery</a></li>
+      <li><a href="#" class="category-link" data-category="hidden-gems">Hidden Gems</a></li>
+      <li><a href="#" class="category-link" data-category="high-scores">High Scores</a></li>
+      <li><a href="#" class="category-link" data-category="label-profile">Label Profile</a></li>
+      <li><a href="#" class="category-link" data-category="lifetime-achievement">Lifetime Achievement</a></li>
+      <li><a href="#" class="category-link" data-category="resonance">Resonance</a></li>
+      <li><a href="#" class="category-link" data-category="scene-report">Scene Report</a></li>
+      <li><a href="#" class="category-link" data-category="essential-releases">Essential Releases</a></li>
+      <li><a href="#" class="category-link" data-category="shortlist">Shortlist</a></li>
+      <li><a href="#" class="category-link" data-category="the-merch-table">The Merch Table</a></li>
+    </ul>
+
+    <!-- Genres Group -->
+    <li class="group-header">Genres</li>
+    <ul class="category-group">
+      <li><a href="#" class="category-link" data-category="acoustic">Acoustic</a></li>
+      <li><a href="#" class="category-link" data-category="alternative">Alternative</a></li>
+      <li><a href="#" class="category-link" data-category="ambient">Ambient</a></li>
+      <li><a href="#" class="category-link" data-category="blues">Blues</a></li>
+      <li><a href="#" class="category-link" data-category="classical">Classical</a></li>
+      <li><a href="#" class="category-link" data-category="comedy">Comedy</a></li>
+      <li><a href="#" class="category-link" data-category="country">Country</a></li>
+      <li><a href="#" class="category-link" data-category="devotional">Devotional</a></li>
+      <li><a href="#" class="category-link" data-category="electronic">Electronic</a></li>
+      <li><a href="#" class="category-link" data-category="experimental">Experimental</a></li>
+      <li><a href="#" class="category-link" data-category="folk">Folk</a></li>
+      <li><a href="#" class="category-link" data-category="funk">Funk</a></li>
+      <li><a href="#" class="category-link" data-category="hip-hop-rap">Hip-Hop/Rap</a></li>
+      <li><a href="#" class="category-link" data-category="jazz">Jazz</a></li>
+      <li><a href="#" class="category-link" data-category="latin">Latin</a></li>
+      <li><a href="#" class="category-link" data-category="metal">Metal</a></li>
+      <li><a href="#" class="category-link" data-category="pop">Pop</a></li>
+      <li><a href="#" class="category-link" data-category="punk">Punk</a></li>
+      <li><a href="#" class="category-link" data-category="rnb-soul">R&B/Soul</a></li>
+      <li><a href="#" class="category-link" data-category="reggae">Reggae</a></li>
+      <li><a href="#" class="category-link" data-category="rock">Rock</a></li>
+      <li><a href="#" class="category-link" data-category="soundtrack">Soundtrack</a></li>
+      <li><a href="#" class="category-link" data-category="spoken-word">Spoken Word</a></li>
+      <li><a href="#" class="category-link" data-category="world">World</a></li>
+      <li><a href="#" class="category-link" data-category="podcasts">Podcasts</a></li>
+    </ul>
+  </ul>
+</aside>
+
+
+
+    <!-- Main Content -->
+    <main class="content">      <h1 class="candy-title">
+    <span class="star star1">º❍‧.</span>
+    <span class="star star2">°.⋆</span>
+    <span class="star star3">º‧⋆.</span>
+    bandcamp 4ever
+    <span class="star star2">❍ ‧⋆.</span>
+    <span class="star star3">˚°⋆‧⋆</span>
+    <span class="star star1">ﾟº‧.</span>
+  </h1>
+      <div id="articles-container" class="articles-grid">
+        <!-- Articles appended here by script.js -->
+      </div>
+    </main>
+  </div>
+
+  <!-- Optional visitor tracker -->
+  <div id="visitor-counter">
+    <!-- your visitor tracking snippet here -->
+  </div>
+
+  <script type="module" src="/js/main.js"></script>
+</body>
+</html>
