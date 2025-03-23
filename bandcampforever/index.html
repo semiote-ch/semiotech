@@ -2,10 +2,10 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <base href="https://semiote.ch/bandcampforever/">
   <title>bandcamp 4ever</title>
-  <link rel="stylesheet" href="/bandcampforever/css/style.css" />
+  <link rel="stylesheet" href="css/style.css" />
 </head>
+
 <body>
   <!-- Title with candy-colored stars, no forced body font for heading -->
 
@@ -16,11 +16,12 @@
 <aside class="sidebar">
   <h2>Categories</h2>
   <ul class="sidebar-list">
-    <li><a href="#" class="category-link" id="all-link" data-category="all-link">All</a></li>
+    <li><a href="#" id="about" data-category="about">about</a></li>
+    <li><a href="#" class="category-link" data-category="all" id="all-link">All</a></li>
     <li><a href="#" id="random-link" >Random</a></li>
 
     <!-- Bandcamp Daily Group -->
-    <li class="group-header">Bandcamp Daily</li>
+    <li class="group-header">best of</li>
     <ul class="category-group">
       <li><a href="#" class="category-link" data-category="best-of-2024">Best of 2024</a></li>
       <li><a href="#" class="category-link" data-category="best-of-2023">Best of 2023</a></li>
@@ -86,13 +87,13 @@
       <li><a href="#" class="category-link" data-category="experimental">Experimental</a></li>
       <li><a href="#" class="category-link" data-category="folk">Folk</a></li>
       <li><a href="#" class="category-link" data-category="funk">Funk</a></li>
-      <li><a href="#" class="category-link" data-category="hip-hop-rap">Hip-Hop/Rap</a></li>
+      <li><a href="#" class="category-link" data-category="hip-hop-rap">Hip Hop Rap</a></li>
       <li><a href="#" class="category-link" data-category="jazz">Jazz</a></li>
       <li><a href="#" class="category-link" data-category="latin">Latin</a></li>
       <li><a href="#" class="category-link" data-category="metal">Metal</a></li>
       <li><a href="#" class="category-link" data-category="pop">Pop</a></li>
       <li><a href="#" class="category-link" data-category="punk">Punk</a></li>
-      <li><a href="#" class="category-link" data-category="rnb-soul">R&B/Soul</a></li>
+      <li><a href="#" class="category-link" data-category="r-b-soul">R B Soul</a></li>
       <li><a href="#" class="category-link" data-category="reggae">Reggae</a></li>
       <li><a href="#" class="category-link" data-category="rock">Rock</a></li>
       <li><a href="#" class="category-link" data-category="soundtrack">Soundtrack</a></li>
@@ -105,16 +106,19 @@
 
 
 
+    <!-- Main Content --><div class="candy-title-container">
     <!-- Main Content -->
-    <main class="content">      <h1 class="candy-title">
-    <span class="star star1">º❍‧.</span>
-    <span class="star star2">°.⋆</span>
-    <span class="star star3">º‧⋆.</span>
+    <h1 class="candy-title">
+    <span class="star star1">｡°‧₊˚</span>
+    <span class="star star2">₊˚.★༺</span>
+    <span class="star star3">*.</span>
     bandcamp 4ever
-    <span class="star star2">❍ ‧⋆.</span>
-    <span class="star star3">˚°⋆‧⋆</span>
-    <span class="star star1">ﾟº‧.</span>
+    <span class="star star2">˚｡*⋆</span>
+    <span class="star star3">˚｡▶︎ •၊၊|</span>
+    <span class="star star1">º‧.</span>
   </h1>
+  </div>
+    <main class="content">
       <div id="articles-container" class="articles-grid">
         <!-- Articles appended here by script.js -->
       </div>
@@ -126,6 +130,15 @@
     <!-- your visitor tracking snippet here -->
   </div>
 
-  <script src="/bandcampforever/js/script.js"></script>
+  <script src="./js/script.js"></script>
+
+
+<script>
+  document.querySelectorAll('[data-category]').forEach(function(element) {
+    let category = element.getAttribute('data-category');
+    category = category.replace(/-/g, ' ');
+    element.setAttribute('data-category', category);
+  });
+</script>
 </body>
 </html>
