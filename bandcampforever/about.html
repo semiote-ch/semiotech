@@ -5,7 +5,6 @@
   <title>bandcamp 4ever</title>
   <link rel="stylesheet" href="css/style.css" />
 </head>
-
 <body>
   <!-- Title with candy-colored stars, no forced body font for heading -->
 
@@ -16,12 +15,11 @@
 <aside class="sidebar">
   <h2>Categories</h2>
   <ul class="sidebar-list">
-    <li><a href="#" id="about" data-category="about">about</a></li>
     <li><a href="#" class="category-link" data-category="all" id="all-link">All</a></li>
     <li><a href="#" id="random-link" >Random</a></li>
 
     <!-- Bandcamp Daily Group -->
-    <li class="group-header">best of</li>
+    <li class="group-header">Bandcamp Daily</li>
     <ul class="category-group">
       <li><a href="#" class="category-link" data-category="best-of-2024">Best of 2024</a></li>
       <li><a href="#" class="category-link" data-category="best-of-2023">Best of 2023</a></li>
@@ -53,7 +51,7 @@
     <!-- Franchises Group -->
     <li class="group-header">Franchises</li>
     <ul class="category-group">
-      <li><a href="#" class="category-link" data-category="lists">Lists</a></li>
+      <li><a href="/index.html" class="category-link" data-category="lists">Lists</a></li>
       <li><a href="#" class="category-link" data-category="features">Features</a></li>
       <li><a href="#" class="category-link" data-category="album-of-the-day">Album of the Day</a></li>
       <li><a href="#" class="category-link" data-category="acid-test">Acid Test</a></li>
@@ -87,13 +85,13 @@
       <li><a href="#" class="category-link" data-category="experimental">Experimental</a></li>
       <li><a href="#" class="category-link" data-category="folk">Folk</a></li>
       <li><a href="#" class="category-link" data-category="funk">Funk</a></li>
-      <li><a href="#" class="category-link" data-category="hip-hop-rap">Hip Hop Rap</a></li>
+      <li><a href="#" class="category-link" data-category="hip-hop-rap">Hip-Hop/Rap</a></li>
       <li><a href="#" class="category-link" data-category="jazz">Jazz</a></li>
       <li><a href="#" class="category-link" data-category="latin">Latin</a></li>
       <li><a href="#" class="category-link" data-category="metal">Metal</a></li>
       <li><a href="#" class="category-link" data-category="pop">Pop</a></li>
       <li><a href="#" class="category-link" data-category="punk">Punk</a></li>
-      <li><a href="#" class="category-link" data-category="r-b-soul">R B Soul</a></li>
+      <li><a href="#" class="category-link" data-category="rnb-soul">R&B/Soul</a></li>
       <li><a href="#" class="category-link" data-category="reggae">Reggae</a></li>
       <li><a href="#" class="category-link" data-category="rock">Rock</a></li>
       <li><a href="#" class="category-link" data-category="soundtrack">Soundtrack</a></li>
@@ -105,8 +103,7 @@
 </aside>
 
 
-
-    <!-- Main Content --><div class="candy-title-container">
+<div class="candy-title-container">
     <!-- Main Content -->
     <h1 class="candy-title">
     <span class="star star1">｡°‧₊˚</span>
@@ -119,25 +116,18 @@
   </h1>
   </div>
     <main class="content">
-      <div id="articles-container" class="articles-grid">
-        <!-- Articles appended here by script.js -->
-      </div>
-    </main>
-  </div>
+      <div class="articles-grid">
+<div class="article-card">
+  <h2>about</h2>
+      <br><p><strong><em>bandcamp forever</strong></em> is a directory of every <a href='https://daily.bandcamp.com/'>bandcamp</a> article as a spotify playlist. you can also conveniently purchase those albums via attached bandcamp links. </p>
+<br><p>streaming is killing artists <em>and</em> killing our tastes. profit-driven music rec algorithms makes it harder for good artists to get discovered by fans, and artists make less because streaming platforms don't pay them. at the same time, we are being spoonfed industry-funded slop by algorithms at spotify &amp; apple music because people pay these platforms to recommend certain songs to us. this eventually creates a &quot;monopoly&quot; of taste: as more and more people listen to bigger artists or &quot;discoverable&quot; artists on spotify, great music becomes less accessible to fans and artists alike. there are more than <strong>2,301,853</strong> artists on bandcamp, many of whom are no longer active. we <em>willingly</em> let this happen because big streaming platforms are simply more convenient. </p>
 
-  <!-- Optional visitor tracker -->
-  <div id="visitor-counter">
-    <!-- your visitor tracking snippet here -->
+  <br><p><strong>there are problems with your website / playlists</strong></p>
+<p>pls email me at jayeychen [at] gmail [dot] com</p>
+      <p style="text-align:right; margin:0;">
+        <a href="/" onclick="">back to bandcamp 4ever</a>
+      </p></div>
+</div>
   </div>
-
-  <script src="./js/script.js"></script>
-<!--  <script src="./js/visitors.js"></script>-->
-<script>
-  document.querySelectorAll('[data-category]').forEach(function(element) {
-    let category = element.getAttribute('data-category');
-    category = category.replace(/-/g, ' ');
-    element.setAttribute('data-category', category);
-  });
-</script>
 </body>
 </html>

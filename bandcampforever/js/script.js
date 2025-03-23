@@ -601,7 +601,7 @@ bottomRightText.style.right = '10px';
 bottomRightText.style.textAlign = 'right';
 bottomRightText.style.fontSize = '0.9em';
 bottomRightText.style.zIndex = '1000';
-bottomRightText.innerHTML = `<a href="/about.html">about</a><br>
+bottomRightText.innerHTML = ` <a href="/about.html">about</a><br>
 made with <span style="color: red;">❤️</span> by jean<br>
 a <a href="https://semiote.ch" target="_blank">semiote.ch</a> production<br>
 // `;
