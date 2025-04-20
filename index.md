@@ -13,3 +13,7 @@ Every sign, linguistic or nonlinguistic, spoken or written (in the usual sense o
 
 🌐 semiote.ch
 📍 Brooklyn, NY
+
+
+coming soon: 
+[metaphor](/metaphor)  •  metonymy  •  
