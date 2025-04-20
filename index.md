@@ -16,4 +16,4 @@ Every sign, linguistic or nonlinguistic, spoken or written (in the usual sense o
 
 
 coming soon: 
-[metaphor](/metaphor)  •  metonymy  •  
+[metaphor](/metaphor.html)  •  metonymy
